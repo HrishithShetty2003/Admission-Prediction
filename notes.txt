@@ -1,0 +1,7 @@
+to activate my venv go to the backend folder first and then 
+source venv/Scripts/activate
+
+then run the server using
+uvicorn main:app --reload --port 8000
+
+anthropic api key=logan@admpredict1827

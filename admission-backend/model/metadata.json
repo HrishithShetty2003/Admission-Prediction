@@ -1,0 +1,30 @@
+{
+  "features": [
+    "GRE Score",
+    "TOEFL Score",
+    "University Rating",
+    "SOP",
+    "LOR",
+    "CGPA",
+    "Research"
+  ],
+  "target": "Chance of Admit",
+  "metrics": {
+    "mae": 0.044,
+    "mse": 0.004,
+    "rmse": 0.0635,
+    "r2": 0.8066
+  },
+  "coefficients": {
+    "GRE Score": 0.023778,
+    "TOEFL Score": 0.017469,
+    "University Rating": 0.006321,
+    "SOP": -0.00378,
+    "LOR": 0.017727,
+    "CGPA": 0.068556,
+    "Research": 0.010202
+  },
+  "intercept": 0.733786,
+  "train_size": 280,
+  "test_size": 120
+}
